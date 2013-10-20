@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D8CF488181449AA0089DE76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8CF487181449AA0089DE76 /* Foundation.framework */; };
+		6D8CF48A181449AA0089DE76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8CF489181449AA0089DE76 /* CoreGraphics.framework */; };
+		6D8CF48C181449AA0089DE76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8CF48B181449AA0089DE76 /* UIKit.framework */; };
+		6D8CF492181449AA0089DE76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D8CF490181449AA0089DE76 /* InfoPlist.strings */; };
+		6D8CF494181449AA0089DE76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CF493181449AA0089DE76 /* main.m */; };
+		6D8CF498181449AA0089DE76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CF497181449AA0089DE76 /* AppDelegate.m */; };
+		6D8CF49B181449AA0089DE76 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8CF499181449AA0089DE76 /* Main_iPhone.storyboard */; };
+		6D8CF49E181449AA0089DE76 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8CF49C181449AA0089DE76 /* Main_iPad.storyboard */; };
+		6D8CF4A1181449AA0089DE76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CF4A0181449AA0089DE76 /* ViewController.m */; };
+		6D8CF4A3181449AA0089DE76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8CF4A2181449AA0089DE76 /* Images.xcassets */; };
+		6D8CF4AA181449AA0089DE76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8CF4A9181449AA0089DE76 /* XCTest.framework */; };
+		6D8CF4AB181449AA0089DE76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8CF487181449AA0089DE76 /* Foundation.framework */; };
+		6D8CF4AC181449AA0089DE76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8CF48B181449AA0089DE76 /* UIKit.framework */; };
+		6D8CF4B4181449AA0089DE76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D8CF4B2181449AA0089DE76 /* InfoPlist.strings */; };
+		6D8CF4B6181449AA0089DE76 /* AnyViewButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CF4B5181449AA0089DE76 /* AnyViewButtonDemoTests.m */; };
+		6D8CF4C1181449FC0089DE76 /* anyViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CF4C0181449FC0089DE76 /* anyViewButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D8CF4AD181449AA0089DE76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D8CF47C181449AA0089DE76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D8CF483181449AA0089DE76;
+			remoteInfo = AnyViewButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D8CF484181449AA0089DE76 /* AnyViewButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyViewButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8CF487181449AA0089DE76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D8CF489181449AA0089DE76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D8CF48B181449AA0089DE76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D8CF48F181449AA0089DE76 /* AnyViewButtonDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnyViewButtonDemo-Info.plist"; sourceTree = "<group>"; };
+		6D8CF491181449AA0089DE76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D8CF493181449AA0089DE76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D8CF495181449AA0089DE76 /* AnyViewButtonDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnyViewButtonDemo-Prefix.pch"; sourceTree = "<group>"; };
+		6D8CF496181449AA0089DE76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D8CF497181449AA0089DE76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D8CF49A181449AA0089DE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		6D8CF49D181449AA0089DE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		6D8CF49F181449AA0089DE76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D8CF4A0181449AA0089DE76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D8CF4A2181449AA0089DE76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D8CF4A8181449AA0089DE76 /* AnyViewButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyViewButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8CF4A9181449AA0089DE76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6D8CF4B1181449AA0089DE76 /* AnyViewButtonDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnyViewButtonDemoTests-Info.plist"; sourceTree = "<group>"; };
+		6D8CF4B3181449AA0089DE76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D8CF4B5181449AA0089DE76 /* AnyViewButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnyViewButtonDemoTests.m; sourceTree = "<group>"; };
+		6D8CF4BF181449FC0089DE76 /* anyViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = anyViewButton.h; sourceTree = "<group>"; };
+		6D8CF4C0181449FC0089DE76 /* anyViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = anyViewButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D8CF481181449AA0089DE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8CF48A181449AA0089DE76 /* CoreGraphics.framework in Frameworks */,
+				6D8CF48C181449AA0089DE76 /* UIKit.framework in Frameworks */,
+				6D8CF488181449AA0089DE76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8CF4A5181449AA0089DE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8CF4AA181449AA0089DE76 /* XCTest.framework in Frameworks */,
+				6D8CF4AC181449AA0089DE76 /* UIKit.framework in Frameworks */,
+				6D8CF4AB181449AA0089DE76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D8CF47B181449AA0089DE76 = {
+			isa = PBXGroup;
+			children = (
+				6D8CF48D181449AA0089DE76 /* AnyViewButtonDemo */,
+				6D8CF4AF181449AA0089DE76 /* AnyViewButtonDemoTests */,
+				6D8CF486181449AA0089DE76 /* Frameworks */,
+				6D8CF485181449AA0089DE76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D8CF485181449AA0089DE76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D8CF484181449AA0089DE76 /* AnyViewButtonDemo.app */,
+				6D8CF4A8181449AA0089DE76 /* AnyViewButtonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D8CF486181449AA0089DE76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D8CF487181449AA0089DE76 /* Foundation.framework */,
+				6D8CF489181449AA0089DE76 /* CoreGraphics.framework */,
+				6D8CF48B181449AA0089DE76 /* UIKit.framework */,
+				6D8CF4A9181449AA0089DE76 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D8CF48D181449AA0089DE76 /* AnyViewButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6D8CF496181449AA0089DE76 /* AppDelegate.h */,
+				6D8CF497181449AA0089DE76 /* AppDelegate.m */,
+				6D8CF4C218144D790089DE76 /* AnyViewButton Control */,
+				6D8CF499181449AA0089DE76 /* Main_iPhone.storyboard */,
+				6D8CF49C181449AA0089DE76 /* Main_iPad.storyboard */,
+				6D8CF49F181449AA0089DE76 /* ViewController.h */,
+				6D8CF4A0181449AA0089DE76 /* ViewController.m */,
+				6D8CF4A2181449AA0089DE76 /* Images.xcassets */,
+				6D8CF48E181449AA0089DE76 /* Supporting Files */,
+			);
+			path = AnyViewButtonDemo;
+			sourceTree = "<group>";
+		};
+		6D8CF48E181449AA0089DE76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D8CF48F181449AA0089DE76 /* AnyViewButtonDemo-Info.plist */,
+				6D8CF490181449AA0089DE76 /* InfoPlist.strings */,
+				6D8CF493181449AA0089DE76 /* main.m */,
+				6D8CF495181449AA0089DE76 /* AnyViewButtonDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D8CF4AF181449AA0089DE76 /* AnyViewButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D8CF4B5181449AA0089DE76 /* AnyViewButtonDemoTests.m */,
+				6D8CF4B0181449AA0089DE76 /* Supporting Files */,
+			);
+			path = AnyViewButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		6D8CF4B0181449AA0089DE76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D8CF4B1181449AA0089DE76 /* AnyViewButtonDemoTests-Info.plist */,
+				6D8CF4B2181449AA0089DE76 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D8CF4C218144D790089DE76 /* AnyViewButton Control */ = {
+			isa = PBXGroup;
+			children = (
+				6D8CF4BF181449FC0089DE76 /* anyViewButton.h */,
+				6D8CF4C0181449FC0089DE76 /* anyViewButton.m */,
+			);
+			name = "AnyViewButton Control";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D8CF483181449AA0089DE76 /* AnyViewButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8CF4B9181449AA0089DE76 /* Build configuration list for PBXNativeTarget "AnyViewButtonDemo" */;
+			buildPhases = (
+				6D8CF480181449AA0089DE76 /* Sources */,
+				6D8CF481181449AA0089DE76 /* Frameworks */,
+				6D8CF482181449AA0089DE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnyViewButtonDemo;
+			productName = AnyViewButtonDemo;
+			productReference = 6D8CF484181449AA0089DE76 /* AnyViewButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D8CF4A7181449AA0089DE76 /* AnyViewButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8CF4BC181449AA0089DE76 /* Build configuration list for PBXNativeTarget "AnyViewButtonDemoTests" */;
+			buildPhases = (
+				6D8CF4A4181449AA0089DE76 /* Sources */,
+				6D8CF4A5181449AA0089DE76 /* Frameworks */,
+				6D8CF4A6181449AA0089DE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D8CF4AE181449AA0089DE76 /* PBXTargetDependency */,
+			);
+			name = AnyViewButtonDemoTests;
+			productName = AnyViewButtonDemoTests;
+			productReference = 6D8CF4A8181449AA0089DE76 /* AnyViewButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D8CF47C181449AA0089DE76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = IBMobile;
+				TargetAttributes = {
+					6D8CF4A7181449AA0089DE76 = {
+						TestTargetID = 6D8CF483181449AA0089DE76;
+					};
+				};
+			};
+			buildConfigurationList = 6D8CF47F181449AA0089DE76 /* Build configuration list for PBXProject "AnyViewButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D8CF47B181449AA0089DE76;
+			productRefGroup = 6D8CF485181449AA0089DE76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D8CF483181449AA0089DE76 /* AnyViewButtonDemo */,
+				6D8CF4A7181449AA0089DE76 /* AnyViewButtonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D8CF482181449AA0089DE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8CF49E181449AA0089DE76 /* Main_iPad.storyboard in Resources */,
+				6D8CF4A3181449AA0089DE76 /* Images.xcassets in Resources */,
+				6D8CF49B181449AA0089DE76 /* Main_iPhone.storyboard in Resources */,
+				6D8CF492181449AA0089DE76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8CF4A6181449AA0089DE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8CF4B4181449AA0089DE76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D8CF480181449AA0089DE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8CF4A1181449AA0089DE76 /* ViewController.m in Sources */,
+				6D8CF4C1181449FC0089DE76 /* anyViewButton.m in Sources */,
+				6D8CF498181449AA0089DE76 /* AppDelegate.m in Sources */,
+				6D8CF494181449AA0089DE76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8CF4A4181449AA0089DE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8CF4B6181449AA0089DE76 /* AnyViewButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D8CF4AE181449AA0089DE76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D8CF483181449AA0089DE76 /* AnyViewButtonDemo */;
+			targetProxy = 6D8CF4AD181449AA0089DE76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D8CF490181449AA0089DE76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D8CF491181449AA0089DE76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D8CF499181449AA0089DE76 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D8CF49A181449AA0089DE76 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6D8CF49C181449AA0089DE76 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D8CF49D181449AA0089DE76 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6D8CF4B2181449AA0089DE76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D8CF4B3181449AA0089DE76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D8CF4B7181449AA0089DE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D8CF4B8181449AA0089DE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D8CF4BA181449AA0089DE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnyViewButtonDemo/AnyViewButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "AnyViewButtonDemo/AnyViewButtonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D8CF4BB181449AA0089DE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnyViewButtonDemo/AnyViewButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "AnyViewButtonDemo/AnyViewButtonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6D8CF4BD181449AA0089DE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnyViewButtonDemo.app/AnyViewButtonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnyViewButtonDemo/AnyViewButtonDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AnyViewButtonDemoTests/AnyViewButtonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6D8CF4BE181449AA0089DE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnyViewButtonDemo.app/AnyViewButtonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnyViewButtonDemo/AnyViewButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "AnyViewButtonDemoTests/AnyViewButtonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D8CF47F181449AA0089DE76 /* Build configuration list for PBXProject "AnyViewButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8CF4B7181449AA0089DE76 /* Debug */,
+				6D8CF4B8181449AA0089DE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D8CF4B9181449AA0089DE76 /* Build configuration list for PBXNativeTarget "AnyViewButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8CF4BA181449AA0089DE76 /* Debug */,
+				6D8CF4BB181449AA0089DE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D8CF4BC181449AA0089DE76 /* Build configuration list for PBXNativeTarget "AnyViewButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D8CF4BD181449AA0089DE76 /* Debug */,
+				6D8CF4BE181449AA0089DE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D8CF47C181449AA0089DE76 /* Project object */;
+}
