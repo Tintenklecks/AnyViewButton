@@ -3,10 +3,10 @@ AnyViewButton
 
 A UIView descendant UIControl for iOS that can be used to combine multiple controls like labels and images and whatever and that animates the click and gives back a delegate event ... Simple demo (with Interface Builder) included
 
-It´ simple to use. Just include the control´ header file
+It´ simple to use. Just include the control´s header file
 
 <code>
-#import "anyViewButton.h";
+    &#35;import "anyViewButton.h";
 </code>
 
 create an instance
