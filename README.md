@@ -6,15 +6,17 @@ A UIView descendant UIControl for iOS that can be used to combine multiple contr
 It´ simple to use. Just include the control´ header file
 
 <code>
-#import "anyViewButton.h"
+#import "anyViewButton.h";
 </code>
 
 create an instance
+
 <code>
   anyViewButton *avButton = [[anyViewButton alloc] initWithFrame:CGRectMake(10, 200, 240, 100)];
 </code>
 
 and add it to your view
+
 <code>
   [self.view addSubview:avButton];
 </code>
@@ -43,7 +45,9 @@ and handle it in the delegate method
 
 <code>
 -(void) tapAnyViewButtonInside:(id)sender {
+
     NSLog(@"You tapped the anyViewButton ");
+
 }
 </code>
 That´s it ;-)
