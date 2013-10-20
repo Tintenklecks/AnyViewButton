@@ -27,9 +27,9 @@
     
     //
     avButton.delegate = self; // now the click calls the STEP 3 below
-//    avButton.factorForInset = 0.9;
-//    avButton.durationForInset = 0.4;
-//    avButton.durationForInset = 0.1;
+    avButton.factorForInset = 0.9;
+    avButton.durationForInset = 0.4;
+    avButton.durationForInset = 0.1;
     
     
     _theLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 220, 20)];
