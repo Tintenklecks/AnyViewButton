@@ -46,6 +46,14 @@
         self.backgroundColor = [UIColor clearColor];
 
         [self setDefaultValues];
+        
+        // put all IBbuilder elements to the new UIView and set it as anyview
+        UIView *newView = [[UIView alloc] initWithFrame:self.bounds];
+        for (id subview in self.subviews) {
+            [newView addSubview:subview];
+        }
+        [self setAnyView:newView];
+
     }
     return self;
 }
@@ -58,11 +66,7 @@
         [self setDefaultValues];
 
         // put all IBbuilder elements to the new UIView and set it as anyview
-        UIView *newView = [[UIView alloc] initWithFrame:self.bounds];
-        for (id subview in self.subviews) {
-            [newView addSubview:subview];
-        }
-        [self setAnyView:newView];
+        [self setAnyView:nil];
     }
     return self;
 
@@ -143,15 +147,22 @@
 }
 
 - (void)setAnyView:(UIView *)anyView {
+    
+    if (anyView==nil) {
+        anyView = [[UIView alloc] initWithFrame:self.bounds];
+        for (id subview in self.subviews) {
+            [anyView addSubview:subview];
+        }
+    }
     _anyView = anyView;
     _anyView.userInteractionEnabled = NO;
     [self addSubview:_anyView];
-
 }
 
-- (IBAction)onKeypress:(id)sender {
-
+- (void)finishedAddingSubviews {
+  [self setAnyView:nil];
 }
+
 
 
 - (UIImage *)takeScreenshot:(UIView *)view {

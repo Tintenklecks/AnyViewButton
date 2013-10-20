@@ -216,7 +216,7 @@
 				ORGANIZATIONNAME = IBMobile;
 				TargetAttributes = {
 					6D8CF4A7181449AA0089DE76 = {
-						TestTargetID = 6D8CF483181449AA0089DE76;
+						TestTargetID = 6D8CF483181449AA0089DE76 /* AnyViewButtonDemo */;
 					};
 				};
 			};

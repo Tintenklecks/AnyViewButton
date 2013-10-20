@@ -30,7 +30,7 @@
     @property(nonatomic) float durationForRelease; // duration in seconds for the release animation
 
     -(void) setAnyView: (UIView *) anyView; // setting the view that is displayed (and animated) on the button
-
+    -(void) finishedAddingSubviews;
 
 
 @end
