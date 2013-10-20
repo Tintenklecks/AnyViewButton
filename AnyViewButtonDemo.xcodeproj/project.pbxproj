@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6D46B00318145F8000520CD6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6D46B00018145F8000520CD6 /* LICENSE */; };
 		6D46B00418145F8000520CD6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6D46B00118145F8000520CD6 /* README.md */; };
-		6D46B00518145F8000520CD6 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D46B00218145F8000520CD6 /* screenshot.png */; };
+		6D46B0071814627300520CD6 /* screenshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D46B0061814627300520CD6 /* screenshot.jpg */; };
 		6D8CF488181449AA0089DE76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8CF487181449AA0089DE76 /* Foundation.framework */; };
 		6D8CF48A181449AA0089DE76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8CF489181449AA0089DE76 /* CoreGraphics.framework */; };
 		6D8CF48C181449AA0089DE76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D8CF48B181449AA0089DE76 /* UIKit.framework */; };
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		6D46B00018145F8000520CD6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6D46B00118145F8000520CD6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		6D46B00218145F8000520CD6 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		6D46B0061814627300520CD6 /* screenshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screenshot.jpg; sourceTree = "<group>"; };
 		6D8CF484181449AA0089DE76 /* AnyViewButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyViewButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8CF487181449AA0089DE76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6D8CF489181449AA0089DE76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 			children = (
 				6D46B00018145F8000520CD6 /* LICENSE */,
 				6D46B00118145F8000520CD6 /* README.md */,
-				6D46B00218145F8000520CD6 /* screenshot.png */,
+				6D46B0061814627300520CD6 /* screenshot.jpg */,
 				6D8CF48D181449AA0089DE76 /* AnyViewButtonDemo */,
 				6D8CF486181449AA0089DE76 /* Frameworks */,
 				6D8CF485181449AA0089DE76 /* Products */,
@@ -185,7 +185,7 @@
 				6D8CF4A3181449AA0089DE76 /* Images.xcassets in Resources */,
 				6D8CF49B181449AA0089DE76 /* Main_iPhone.storyboard in Resources */,
 				6D8CF492181449AA0089DE76 /* InfoPlist.strings in Resources */,
-				6D46B00518145F8000520CD6 /* screenshot.png in Resources */,
+				6D46B0071814627300520CD6 /* screenshot.jpg in Resources */,
 				6D46B00318145F8000520CD6 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
