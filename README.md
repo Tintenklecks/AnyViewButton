@@ -49,7 +49,11 @@ and handle it in the delegate method
     NSLog(@"You tapped the anyViewButton ");
 
 }
+
+
 </code>
+
+
 That´s it ;-)
 
 ![Screen](screenshot.jpg)
